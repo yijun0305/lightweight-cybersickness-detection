@@ -26,8 +26,8 @@ own Fast Motion Sickness Score (FMS) reports, evaluated under a chronological te
 
 ## Data
 
-The experiments use the *Simulation 2021* dataset. The raw data are not included in this repository and cannot be
-redistributed. Access to the raw data has to be requested from the authors of:
+The experiments use the *Simulation 2021* dataset. The raw data are not included in this repository.
+Access to the raw data has to be requested from the authors of:
 
 > Islam, R., Desai, K., Quarles, J. (2021). Cybersickness Prediction from Integrated HMD's Sensors: A Multimodal
 > Deep Fusion Approach using Eye-tracking and Head-tracking Data. IEEE International Symposium on Mixed and
@@ -38,7 +38,7 @@ redistributed. Access to the raw data has to be requested from the authors of:
 ## Environment
 
 The incremental personalization experiments were run with Python 3.14.3, XGBoost 3.2.0 (2 threads),
-scikit-learn 1.8.0, imbalanced-learn 0.14.1, pandas 3.0.1 and NumPy 2.4.3 on an Intel Core i7-12800H CPU.
+scikit-learn 1.8.0, imbalanced-learn 0.14.1, pandas 3.0.1 and NumPy 2.4.3.
 
 ```
 pip install numpy==2.4.3 pandas==3.0.1 scikit-learn==1.8.0 imbalanced-learn==0.14.1 xgboost==3.2.0 scipy==1.17.1 matplotlib==3.10.8 jupyter
@@ -46,10 +46,7 @@ pip install numpy==2.4.3 pandas==3.0.1 scikit-learn==1.8.0 imbalanced-learn==0.1
 
 `dl_models.ipynb` additionally needs TensorFlow, which may require an older Python version than 3.14.
 
-All experiments use the random seed 42. Some results were obtained on Google Colab with the library
-versions available at that time. Rerunning them with the versions listed above reproduces the sample sizes
-and gives small differences in some class-wise metrics. Deep learning results can also vary slightly between runs and
-hardware, and all computation times depend on the hardware and its load.
+All experiments use the random seed 42.
 
 ## Citation
 
