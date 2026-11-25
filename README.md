@@ -46,8 +46,6 @@ pip install numpy==2.4.3 pandas==3.0.1 scikit-learn==1.8.0 imbalanced-learn==0.1
 
 `dl_models.ipynb` additionally needs TensorFlow, which may require an older Python version than 3.14.
 
-All experiments use the random seed 42.
-
 ## Citation
 
 The citation will be added after publication.
